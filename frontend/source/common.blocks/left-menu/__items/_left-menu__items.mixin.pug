@@ -1,0 +1,6 @@
+mixin left-menu__items
+    .left-menu__items(class!=attributes.class)
+        if block
+            block
+        else
+            = "default content"

@@ -1,0 +1,6 @@
+@mixin icon($name) {
+  width: 1em;
+  height: 1em;
+  background: url('#{$name}');
+  background-size: cover;
+}
