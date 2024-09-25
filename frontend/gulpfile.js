@@ -222,7 +222,7 @@ gulp.task('watch', function (done) {
 gulp.task('browser-sync', function () {
     return browserSync.init({
         port: 1337,
-        startPath: '/index.html',
+        startPath: '/druft.html',
         server: {
             baseDir: config.dir.target.dist
         }
